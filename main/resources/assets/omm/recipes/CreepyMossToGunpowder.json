@@ -1,0 +1,18 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "omm:creepymoss"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "minecraft:gunpowder",
+        "count": 2
+    }
+}

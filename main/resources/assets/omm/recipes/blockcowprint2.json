@@ -1,0 +1,18 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "omm:blockcowprint"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "omm:cowhide",
+        "count": 9
+    }
+}

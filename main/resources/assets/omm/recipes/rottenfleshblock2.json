@@ -1,0 +1,18 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "omm:rottenfleshblock"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "minecraft:rotten_flesh",
+        "count": 9
+    }
+}

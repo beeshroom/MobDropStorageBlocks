@@ -1,0 +1,24 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "omm:leather_strip"
+    },
+    {
+      "item": "omm:leather_strip"
+    },
+    {
+      "item": "omm:leather_strip"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "minecraft:leather",
+        "count": 1
+    }
+}

@@ -1,0 +1,27 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "omm:cowhide"
+    },
+   {
+      "item": "omm:cowhide"
+    },
+     {
+      "item": "omm:cowhide"
+    },
+      {
+      "item": "minecraft:red_mushroom"
+    }
+     
+    ],
+
+    "result": 
+    {
+        "item": "omm:mooshroomhide",
+        "count": 3
+    }
+}

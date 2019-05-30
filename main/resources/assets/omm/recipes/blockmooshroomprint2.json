@@ -1,0 +1,18 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "omm:blockmooshroomprint"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "omm:mooshroomhide",
+        "count": 9
+    }
+}

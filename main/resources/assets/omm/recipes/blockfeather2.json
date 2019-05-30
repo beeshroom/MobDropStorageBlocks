@@ -1,0 +1,18 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "omm:blockfeather"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "minecraft:feather",
+        "count": 9
+    }
+}

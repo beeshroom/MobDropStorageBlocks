@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "explode=true": {
+            "model": "omm:blockcreeperprint" },
+        "explode=false": {
+            "model": "omm:blockcreeperprint" },
+        "normal": { "model": "omm:blockcreeperprint" }
+        }
+    }

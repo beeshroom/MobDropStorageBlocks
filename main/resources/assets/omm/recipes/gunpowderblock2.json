@@ -1,0 +1,18 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "omm:gunpowderblock"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "minecraft:gunpowder",
+        "count": 9
+    }
+}
