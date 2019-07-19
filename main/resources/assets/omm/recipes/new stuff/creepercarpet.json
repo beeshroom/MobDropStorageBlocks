@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "xx"
+    ],
+    
+    "key":
+    {
+        "x":
+        {
+            "item": "omm:creepymoss"
+        }
+    },
+    
+    "result":
+    {
+        "item": "omm:carpetcreeperprint",
+        "count": 4
+    }
+}

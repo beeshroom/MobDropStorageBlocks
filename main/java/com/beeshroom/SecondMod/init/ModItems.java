@@ -27,7 +27,7 @@ public class ModItems {
 	public static final Item MOOSHROOMHIDE = new ItemBase("mooshroomhide");
 	public static final Item MOOSHROOMHIDEBROWN = new ItemBase("mooshroomhidebrown");
 	public static final Item CREEPYMOSS = new ItemBase("creepymoss");
-	public static final Item LEATHER_STRIP = new ItemBase("leather_strip");
+	//public static final Item LEATHER_STRIP = new ItemBase("leather_strip");
 	
 	
 	

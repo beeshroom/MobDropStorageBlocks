@@ -1,0 +1,11 @@
+    
+{
+    "parent": "block/half_slab",
+    "textures":
+    {
+        "bottom": "blocks/planks_spruce",
+        "top": "omm:blocks/eggtop",
+        "side": "omm:blocks/eggside"
+    }
+}
+

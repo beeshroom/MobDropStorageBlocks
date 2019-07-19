@@ -1,6 +1,5 @@
 package com.beeshroom.SecondMod;
 
-import com.beeshroom.SecondMod.proxy.CommonProxy;
 import com.beeshroom.SecondMod.tabs.MobDropsTab;
 import com.beeshroom.SecondMod.util.Reference;
 import com.beeshroom.SecondMod.util.handlers.MobDropsHandler;
@@ -24,8 +23,8 @@ public class Main {
 	
 	public static final CreativeTabs mobdropstab = new MobDropsTab("mobdropstab");
 	
-	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
-	public static CommonProxy proxy;
+	/*@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
+	public static CommonProxy proxy; */
 	{
 	
 	}

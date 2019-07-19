@@ -1,0 +1,7 @@
+{
+    "variants":
+    {
+        "half=bottom,variant=default": { "model": "omm:eggsslab_bottom" },
+        "half=top,variant=default": { "model": "omm:eggsslab_top" }
+    }
+}

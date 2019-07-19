@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "xxx"
+    ],
+    
+    "key":
+    {
+        "x":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "omm:stickmat",
+        "count": 1
+    }
+}

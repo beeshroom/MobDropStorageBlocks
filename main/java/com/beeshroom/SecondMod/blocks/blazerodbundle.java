@@ -3,7 +3,6 @@ package com.beeshroom.SecondMod.blocks;
 import com.beeshroom.SecondMod.Main;
 import com.beeshroom.SecondMod.init.ModBlocks;
 import com.beeshroom.SecondMod.init.ModItems;
-import com.beeshroom.SecondMod.util.IHasModel;
 
 import net.minecraft.block.BlockRotatedPillar;
 import net.minecraft.block.SoundType;
@@ -22,7 +21,7 @@ import net.minecraft.world.IBlockAccess;
 //to The Lost Sea, I've been granted permission to use this code.
 
 
-public class blazerodbundle extends BlockRotatedPillar implements IHasModel{
+public class blazerodbundle extends BlockRotatedPillar {
 
 	public blazerodbundle(String name, Material material) {
 	
@@ -55,8 +54,8 @@ public class blazerodbundle extends BlockRotatedPillar implements IHasModel{
 	}
 
 
-	@Override
+/*	@Override
 	public void registerModels() {
 		Main.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
-	}
+	}*/
 }

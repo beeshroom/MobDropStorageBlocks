@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "xx"
+    ],
+    
+    "key":
+    {
+        "x":
+        {
+            "item": "omm:cowhide"
+        }
+    },
+    
+    "result":
+    {
+        "item": "omm:carpetcowprint",
+        "count": 4
+    }
+}

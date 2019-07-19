@@ -1,15 +1,15 @@
 [
 {
   "modid": "omm",
-  "name": "Mob Drop Storage Blocks (Official Millet Mod)",
+  "name": "Mob Drop Storage Blocks",
   "description": "Adds storage blocks for commonly farmed mob drops. They also make good building materials!",
   "version": "1.2",
   "mcversion": "[1.12.2]",
   "url": "",
   "updateUrl": "",
   "authorList": ["beeshroom"],
-  "credits": "SmellyModder for code that allows for directional facing blocks. AutumnWitch's Starbound character (Millet) for inspiring flesh/bone building materials.",
-  "logoFile": "",
+  "credits": "SmellyModder for code that allows for directional facing blocks. AutumnWitch's Starbound character (Millet) for inspiring flesh/bone building materials. Cadiboo for code that helps with rendering entities. Mr. Pineapple for code allowing half slab.",
+  "logoFile": "assets/omm/textures/MDSB.png",
   "screenshots": [],
   "dependencies": []
 }

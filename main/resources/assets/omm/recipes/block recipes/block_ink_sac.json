@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "RRR",
+        "RRR",
+        "RRR"
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+           "item": "minecraft:dye",
+      "data": 0
+        }
+    },
+    
+    "result":
+    {
+        "item": "omm:block_ink_sac",
+        "count": 1
+    }
+}

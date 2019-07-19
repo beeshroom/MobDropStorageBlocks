@@ -1,0 +1,14 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "blocks/hay_block_top",
+        "down": "blocks/planks_spruce",
+        "up": "omm:blocks/eggtop",
+        "north": "omm:blocks/eggside",
+        "east": "omm:blocks/eggside",
+        "south": "omm:blocks/eggside",
+        "west": "omm:blocks/eggside"
+    }
+    }
+
+ 

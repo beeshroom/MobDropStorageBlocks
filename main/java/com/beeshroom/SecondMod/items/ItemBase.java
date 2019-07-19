@@ -2,11 +2,11 @@ package com.beeshroom.SecondMod.items;
 
 import com.beeshroom.SecondMod.Main;
 import com.beeshroom.SecondMod.init.ModItems;
-import com.beeshroom.SecondMod.util.IHasModel;
+
 
 import net.minecraft.item.Item;
 
-public class ItemBase extends Item implements IHasModel {
+public class ItemBase extends Item  {
 
 	public ItemBase(String name)
 	{
@@ -18,11 +18,11 @@ public class ItemBase extends Item implements IHasModel {
 		
 	}
 	
-	@Override
+	/*@Override
 	public void registerModels() 
 	{
 	Main.proxy.registerItemRenderer(this,0,"inventory");
 		
-	}
+	} */
 
 }

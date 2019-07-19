@@ -1,0 +1,7 @@
+{
+    "parent": "block/carpet",
+    "textures": {
+        "particle": "omm:blocks/blockmooshroomprintbrown",
+        "wool": "omm:blocks/blockmooshroomprintbrown"
+    }
+}

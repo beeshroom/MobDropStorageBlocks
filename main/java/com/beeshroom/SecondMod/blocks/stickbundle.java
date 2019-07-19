@@ -1,15 +1,17 @@
 package com.beeshroom.SecondMod.blocks;
 
+import java.util.Random;
+
 import com.beeshroom.SecondMod.Main;
 import com.beeshroom.SecondMod.init.ModBlocks;
 import com.beeshroom.SecondMod.init.ModItems;
-import com.beeshroom.SecondMod.util.IHasModel;
 
 import net.minecraft.block.BlockRotatedPillar;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.Entity;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.util.EnumFacing;
@@ -21,7 +23,7 @@ import net.minecraft.world.IBlockAccess;
 //to The Lost Sea, I've been granted permission to use this code.
 
 
-public class stickbundle extends BlockRotatedPillar implements IHasModel{
+public class stickbundle extends BlockRotatedPillar {
 
 	public stickbundle(String name, Material material) {
 	
@@ -37,7 +39,7 @@ public class stickbundle extends BlockRotatedPillar implements IHasModel{
 		setRegistryName(name);
 		setUnlocalizedName(name);
 		
-		//setCreativeTab(Main.oatmealtab);
+		setCreativeTab(Main.mobdropstab);
 		
 		
 		ModBlocks.BLOCKS.add(this);
@@ -52,10 +54,10 @@ public class stickbundle extends BlockRotatedPillar implements IHasModel{
 	}
 
 
-	@Override
+/*	@Override
 	public void registerModels() {
 		Main.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
-	}
+	}*/
 	
 	@Override
 
@@ -77,4 +79,22 @@ public class stickbundle extends BlockRotatedPillar implements IHasModel{
         return 5;
 
     }
+    
+    
+    //trying to make this block drop 9 sticks always
+    public Item getItemDropped(IBlockState state, Random rand, int fortune)
+    {
+        return Items.STICK;
+    }
+
+    /**
+     * Returns the quantity of items to drop on block destruction.
+     */
+    public int quantityDropped(Random random)
+    {
+        return 9;
+    }
+    
+    
+    
 }

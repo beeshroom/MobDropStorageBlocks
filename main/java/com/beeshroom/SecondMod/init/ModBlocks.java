@@ -3,25 +3,39 @@ package com.beeshroom.SecondMod.init;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.beeshroom.SecondMod.blocks.BlockBase;
+import com.beeshroom.SecondMod.Main;
+import com.beeshroom.SecondMod.blocks.BlockSlabDoubleBase;
+import com.beeshroom.SecondMod.blocks.BlockSlabHalfBase;
 import com.beeshroom.SecondMod.blocks.blazepowderblock;
 import com.beeshroom.SecondMod.blocks.blazerodbundle;
+import com.beeshroom.SecondMod.blocks.block_ink_sac;
 import com.beeshroom.SecondMod.blocks.blockcowprint;
 import com.beeshroom.SecondMod.blocks.blockcreeperprint;
+import com.beeshroom.SecondMod.blocks.blockeggs;
+
 import com.beeshroom.SecondMod.blocks.blockfeather;
 import com.beeshroom.SecondMod.blocks.blockleather;
 import com.beeshroom.SecondMod.blocks.blockmooshroomprint;
 import com.beeshroom.SecondMod.blocks.blockmooshroomprintbrown;
 import com.beeshroom.SecondMod.blocks.bonesblock;
+import com.beeshroom.SecondMod.blocks.carpetbrownmooshroomprint;
+import com.beeshroom.SecondMod.blocks.carpetcowprint;
+import com.beeshroom.SecondMod.blocks.carpetcreeperprint;
+import com.beeshroom.SecondMod.blocks.carpetmooshroomprint;
 //import com.beeshroom.SecondMod.blocks.carpetcreeperprint;
 import com.beeshroom.SecondMod.blocks.gunpowderblock;
+import com.beeshroom.SecondMod.blocks.leathermat;
 import com.beeshroom.SecondMod.blocks.rottenfleshblock;
 import com.beeshroom.SecondMod.blocks.spidereyeblock;
 import com.beeshroom.SecondMod.blocks.stickbundle;
+import com.beeshroom.SecondMod.blocks.stickmat;
+import com.beeshroom.SecondMod.util.Reference;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockSlab;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
-import net.minecraftforge.registries.IForgeRegistry;
+import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 
 public class ModBlocks 
 {
@@ -41,8 +55,24 @@ public class ModBlocks
 	public static final Block BLOCKMOOSHROOMPRINT = new blockmooshroomprint("blockmooshroomprint", Material.CLOTH);
 	public static final Block BLOCKMOOSHROOMPRINTBROWN = new blockmooshroomprintbrown("blockmooshroomprintbrown", Material.CLOTH);
 	public static final Block BLOCKCREEPERPRINT = new blockcreeperprint("blockcreeperprint", Material.CLOTH);
+
 	
-	//public static final Block CARPETCREEPERPRINT = new carpetcreeperprint("carpetcreeperprint", Material.CLOTH)
+	public static final Block CARPETCREEPERPRINT = new carpetcreeperprint("carpetcreeperprint", Material.CARPET);
+	public static final Block CARPETCOWPRINT = new carpetcowprint("carpetcowprint", Material.CARPET);
+	public static final Block CARPETMOOSHROOMPRINT = new carpetmooshroomprint("carpetmooshroomprint", Material.CARPET);
+	public static final Block CARPETBROWNMOOSHROOMPRINT = new carpetbrownmooshroomprint("carpetbrownmooshroomprint", Material.CARPET);
+	public static final Block STICKMAT = new stickmat("stickmat", Material.CARPET);
+	public static final Block LEATHERMAT = new leathermat("leathermat", Material.CARPET);
 	
+	public static final Block INKSACBLOCK = new block_ink_sac("block_ink_sac", Material.CARPET);
+	
+	
+	public static final Block BLOCKEGGS = new blockeggs("blockeggs", Material.GRASS);
+	//public static final BlockSlab BLOCKEGGSSLAB = new BlockSlabHalfBase("blockeggslab", Material.GRASS);
+	
+	
+	
+	public static final BlockSlab EGGSSLABDOUBLE = new BlockSlabDoubleBase("eggsslabdouble", Material.GRASS, Main.mobdropstab, ModBlocks.EGGSSLABHALF);
+	public static final BlockSlab EGGSSLABHALF = new BlockSlabHalfBase("eggsslabhalf", Material.GRASS, Main.mobdropstab, ModBlocks.EGGSSLABHALF, ModBlocks.EGGSSLABDOUBLE);
 	
 }

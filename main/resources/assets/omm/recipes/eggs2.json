@@ -1,0 +1,18 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "omm:eggsslabhalf"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "minecraft:egg",
+        "count": 9
+    }
+}

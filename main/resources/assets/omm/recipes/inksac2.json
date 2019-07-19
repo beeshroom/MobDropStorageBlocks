@@ -1,0 +1,19 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "omm:block_ink_sac"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "minecraft:dye",
+      "data": 0,
+        "count": 9
+    }
+}

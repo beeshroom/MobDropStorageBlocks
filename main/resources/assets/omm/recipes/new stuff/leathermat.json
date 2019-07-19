@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "xx"
+    ],
+    
+    "key":
+    {
+        "x":
+        {
+            "item": "minecraft:leather"
+        }
+    },
+    
+    "result":
+    {
+        "item": "omm:leathermat",
+        "count": 4
+    }
+}

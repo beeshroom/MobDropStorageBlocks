@@ -2,12 +2,11 @@ package com.beeshroom.SecondMod.items.food;
 
 import com.beeshroom.SecondMod.Main;
 import com.beeshroom.SecondMod.init.ModItems;
-import com.beeshroom.SecondMod.util.IHasModel;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemFood;
 
-public class ItemCustomFood extends ItemFood implements IHasModel 
+public class ItemCustomFood extends ItemFood
 {
 	public ItemCustomFood(String name, int amount, boolean iswolffood)
 	{
@@ -19,9 +18,9 @@ public class ItemCustomFood extends ItemFood implements IHasModel
 		ModItems.ITEMS.add(this);
 		
 	}
-	@Override 
+	/*@Override 
 	public void registerModels()
 	{
 		Main.proxy.registerItemRenderer(this, 0, "inventory");
-	}
+	} */
 }

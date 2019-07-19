@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "xx"
+    ],
+    
+    "key":
+    {
+        "x":
+        {
+            "item": "omm:mooshroomhide"
+        }
+    },
+    
+    "result":
+    {
+        "item": "omm:carpetmooshroomprint",
+        "count": 4
+    }
+}

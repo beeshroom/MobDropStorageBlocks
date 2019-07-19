@@ -3,30 +3,30 @@
     
     "pattern":
     [
-        "  S",
-        " I ",
-        "L  "
+        "  s",
+        " i ",
+        "l  "
     ],
     
     "key":
     {
-        "S":
+        "s":
         {
             "item": "minecraft:string"
         },
-          "I":
+          "i":
         {
             "item": "minecraft:iron_nugget"
         },
-          "L":
+          "l":
         {
-            "item": "omm:leather_strip"
+            "item": "minecraft:paper"
         }
     },
     
     "result":
     {
-        "item": "minecraft:nametag",
+        "item": "minecraft:name_tag",
         "count": 1
     }
 }

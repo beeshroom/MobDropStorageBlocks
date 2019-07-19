@@ -1,0 +1,18 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "omm:stickmat"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "minecraft:stick",
+        "count":3
+    }
+}

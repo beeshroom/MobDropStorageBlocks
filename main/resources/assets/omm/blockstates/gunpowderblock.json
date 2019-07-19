@@ -1,5 +1,9 @@
 {
     "variants": {
+        "explode=true": {
+            "model": "omm:gunpowderblock" },
+        "explode=false": {
+            "model": "omm:gunpowderblock" },
         "normal": { "model": "omm:gunpowderblock" }
+        }
     }
-}

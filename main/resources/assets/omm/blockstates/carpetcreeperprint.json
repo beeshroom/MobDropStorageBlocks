@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "explode=true": {
+            "model": "omm:carpetcreeperprint" },
+        "explode=false": {
+            "model": "omm:carpetcreeperprint" },
+        "normal": { "model": "omm:carpetcreeperprint" }
+        }
+    }

@@ -9,7 +9,7 @@ import net.minecraft.item.ItemStack;
 
 public class MobDropsTab extends CreativeTabs
 {
-	public MobDropsTab(String label) {super("oatmealtab");}
+	public MobDropsTab(String label) {super("mobdropstab");}
 	public ItemStack getTabIconItem() { return new ItemStack(ModBlocks.ROTTENFLESHBLOCK);}
 
 	}
