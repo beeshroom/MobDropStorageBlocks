@@ -1,4 +1,4 @@
-package com.beeshroom.SecondMod.util.handlers;
+/* package com.beeshroom.SecondMod.util.handlers;
 
 
 	import com.beeshroom.SecondMod.events.LootTableEvent;
@@ -18,3 +18,4 @@ import net.minecraftforge.common.MinecraftForge;
 		//	MinecraftForge.EVENT_BUS.register(exampleEvent);
 		}
 	}
+*/

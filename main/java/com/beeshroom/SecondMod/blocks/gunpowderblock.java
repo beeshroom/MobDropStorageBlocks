@@ -183,5 +183,14 @@ public class gunpowderblock extends BlockBase
     {
         return new BlockStateContainer(this, new IProperty[] {EXPLODE});
     }
+    
+    /*
+    public void onBlockClicked(World worldIn, BlockPos pos, EntityPlayer playerIn)
+    {
+        super.onBlockClicked(worldIn, pos, playerIn);
+         worldIn.playSound((EntityPlayer)null, pos, SoundEvents.ENTITY_CREEPER_HURT, SoundCategory.BLOCKS, 0.1F, 1.3F);
+
+    }*/
+    
 }
 

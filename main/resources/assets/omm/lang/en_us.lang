@@ -22,8 +22,7 @@ tile.blockcowprint.name=Cow Pattern Block
 tile.blockmooshroomprint.name=Mooshroom Pattern Block
 tile.blockmooshroomprintbrown.name=Brown Mooshroom Pattern Block
 tile.blockcreeperprint.name=Block of Creepy Moss
-tile.eggsslabhalf.name=Egg Crate
-tile.blockeggs.name= Double Egg Crate
+tile.eggcrate.name=Nest
 tile.block_ink_sac.name= Block of Ink Sacs
 
 //carpet
@@ -33,6 +32,10 @@ tile.carpetmooshroomprint.name=Mooshroom Pattern Carpet
 tile.carpetbrownmooshroomprint.name=Brown Mooshroom Pattern Carpet
 tile.stickmat.name=Stick Mat
 tile.leathermat.name=Leather Mat
+
+//advancements
+advancements.omm.armed.title=Armed and Ready
+advancements.omm.armed.description=Loot a skeleton's arm.
 
 
 

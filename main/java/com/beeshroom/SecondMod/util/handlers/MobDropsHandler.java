@@ -22,9 +22,9 @@ public class MobDropsHandler
     
 	private void setRarity(EnumRarity rare) {} 
 	
-
 	
-    @SubscribeEvent
+	
+    @SubscribeEvent //added random random
     public void onMobDrops(LivingDropsEvent event)
     {
        if (event.getEntity() instanceof EntityCreeper)
@@ -34,7 +34,7 @@ public class MobDropsHandler
         	
            // event.drops.clear(); DON'T UNDO THESE //'s!!!
         	
-        	setRarity(EnumRarity.RARE);
+        	setRarity(EnumRarity.UNCOMMON);
           ItemStack stack = new ItemStack(ModItems.CREEPYMOSS);
             EntityItem drop = new EntityItem(event.getEntity().world, event.getEntity().posX, event.getEntity().posY, event.getEntity().posZ, stack);
         
@@ -73,23 +73,25 @@ public class MobDropsHandler
                   
                   event.getDrops().add(drop);
    }}
-   		Random rand = new Random();
+       
+       
+   		
        if (event.getEntity() instanceof EntitySkeleton){
-           EntitySkeleton entity = (EntitySkeleton)event.getEntity();
-              if (event.getSource().getDamageType().equals("player") && !entity.isChild())
+    	   EntitySkeleton entity = (EntitySkeleton)event.getEntity();
+              if (event.getSource().getDamageType().equals("player"))
               
-              
-                  
-                 // event.drops.clear(); DON'T UNDO THESE //'s!!!
-                  
-            	  {
-            				if(rand.nextInt(20) == 0)
-            				{
-            					event.getEntityLiving().entityDropItem(new ItemStack(ModItems.SKELETON_ARM), 0.0f);
-            				}
-            			}
+              {  
+          		Random rand = new Random(); 
+          		if(rand.nextInt(15) == 0) {
+          		setRarity(EnumRarity.EPIC);
+                ItemStack stack = new ItemStack(ModItems.SKELETON_ARM, 1, 15 + rand.nextInt(40));
+                  EntityItem drop = new EntityItem(event.getEntity().world, event.getEntity().posX, event.getEntity().posY, event.getEntity().posZ, stack);
+          		
+                  event.getDrops().add(drop); 
+              	}}
             			
-   }}
+       }}
+}
       /* if (event.getEntity() instanceof EntityBrownMooshroom){
            EntityBrownMooshroom entity = (EntityBrownMooshroom)event.getEntity();
               if (event.getSource().getDamageType().equals("player") && !entity.isChild())
@@ -102,5 +104,6 @@ public class MobDropsHandler
     
          event.getDrops().add(drop);
     }} */
+
     
-    } 
+     

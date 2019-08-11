@@ -28,6 +28,9 @@ import net.minecraftforge.fml.common.registry.EntityEntryBuilder;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import net.minecraftforge.registries.IForgeRegistry;
 
+//Thankyou to Cadiboo for a lot of the code used in this class
+
+
 @Mod.EventBusSubscriber(modid = Reference.MOD_ID)
 public final class RegistryHandler {
 
@@ -136,11 +139,7 @@ public static void onModelRegister(ModelRegistryEvent event)
 
 
 
-public static void preInitRegistries()
-{
-	EventHandler.registerEvents();
 
-}
 
 @SubscribeEvent
 public static void furnaceFuelBurnTime(FurnaceFuelBurnTimeEvent event)
@@ -156,5 +155,11 @@ public static void furnaceFuelBurnTime(FurnaceFuelBurnTimeEvent event)
 	}
 	
 }
+/*
+public static void preInitRegistries()
+{
+	EventHandler.registerEvents();
+
+} */
 
 }

@@ -1,10 +1,11 @@
 package com.beeshroom.SecondMod.events;
-
+/*
 
 import java.util.Random;
 
 import com.beeshroom.SecondMod.init.ModItems;
 
+import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.monster.EntitySilverfish;
 import net.minecraft.entity.monster.EntitySkeleton;
 import net.minecraft.item.ItemStack;
@@ -19,23 +20,14 @@ public class LootTableEvent
 		Random rand = new Random();
 		if(event.getEntityLiving() instanceof EntitySkeleton)
 		{
-		/*	if(rand.nextInt(1) == 0)
-			{
-				event.getEntityLiving().entityDropItem(new ItemStack(ModItems.LIGHTNING_STAFF), 0.0f);
-			}*/
 			
-			if(rand.nextInt(20) == 0)
+			if(rand.nextInt(7) == 0)
 			{
 				event.getEntityLiving().entityDropItem(new ItemStack(ModItems.SKELETON_ARM), 0.0f);
+				//  ItemStack stack = new ItemStack(ModItems.SKELETON_ARM);
+                //  EntityItem drop = new EntityItem(event.getEntity().world, event.getEntity().posX, event.getEntity().posY, event.getEntity().posZ, stack);
 			}
 		}
-		
-	/*	if(event.getEntityLiving() instanceof EntitySilverfish)
-		{
-			if(rand.nextInt(5) == 0)
-			{
-				event.getEntityLiving().entityDropItem(new ItemStack(BlockInit.SILVER_BLOCK), 0.0f);
-			}
-		} */
 	}
-}
+} */
+

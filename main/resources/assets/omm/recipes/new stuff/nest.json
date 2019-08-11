@@ -5,16 +5,14 @@
     [
 
     {
-      "item": "omm:skeleton_arm",
-      "data": 32767
+      "item": "omm:eggcrate"
     }
     
     ],
 
     "result": 
     {
-        "item": "minecraft:dye",
-        "data": 15,
-        "count": 7
+        "item": "minecraft:egg",
+        "count": 9
     }
 }

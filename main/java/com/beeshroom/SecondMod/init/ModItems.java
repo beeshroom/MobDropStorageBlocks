@@ -18,8 +18,10 @@ public class ModItems {
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	
 	//Materials
-	public static final ToolMaterial MATERIAL_BONE = EnumHelper.addToolMaterial("material_bone", 1, 75, 4.0F, 1.9F, 15);
-	
+	public static final ToolMaterial MATERIAL_BONE = EnumHelper.addToolMaterial("material_bone", 1, 65, 4.0F, 0.0F, 15);
+	//1, 65, 3.9F, 1.5F, 15)
+	// 1, 75, 4.0F, 1.9F, 15
+	//doing math, one sec, lol 1.0 =.9 3.9=.8 3.8=.7 3.7=.6 3.6=.5
 	
 	//items
 	//public static final Item OAT = new ItemBase("oat");

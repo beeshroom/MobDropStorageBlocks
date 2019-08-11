@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "omm:skeleton_arm"
+        },
+        "title": {
+            "translate": "advancements.omm.armed.title"
+        },
+        "description": {
+            "translate": "advancements.omm.armed.description"
+        }
+    },
+    "parent": "minecraft:adventure/kill_a_mob",
+    "rewards": {
+        "experience": 15
+        },
+    
+      "criteria": {
+    "has_the_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "omm:skeleton_arm"
+          }
+        ]
+      }
+    }
+    }
+}
